@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: karthikeyareddyv/assignment-7-part-2:latest
+          image: karthikeyareddyv/assignment-7-part-2:lates
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
