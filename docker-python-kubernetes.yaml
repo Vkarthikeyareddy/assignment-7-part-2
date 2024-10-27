@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deploymen
 metadata:
   name: docker-python-demo
   namespace: default
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: karthikeyareddyv/assignment-7-part-2:lates
+          image: karthikeyareddyv/assignment-7-part-2:latest
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
